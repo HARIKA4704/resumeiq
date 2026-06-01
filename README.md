@@ -1,50 +1,30 @@
 # ResumeIQ
 
-ResumeIQ is a professional ATS Resume Analyzer built with Streamlit that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS).
+Professional ATS Resume Analyzer built with Streamlit.
 
 ## Features
 
 * ATS Score Analysis
-* Keyword Matching
-* Skill Gap Detection
 * Resume Health Check
+* Skill Gap Detection
 * Resume Enhancement Suggestions
-* Resume Reports
 * PDF Resume Upload
-* Cybersecurity & Technical Skill Detection
+* Keyword Matching
+* Report Generation
 
-## Technology Stack
+## Tech Stack
 
 * Python
 * Streamlit
-* Scikit-learn
-* PyMuPDF
 * Plotly
+* Scikit-Learn
+* PyMuPDF
 
-## Installation
+## Run Locally
 
 ```bash
-git clone https://github.com/HARIKA4704/resumeiq.git
-cd resumeiq
 pip install -r requirements.txt
 streamlit run app.py
-```
-
-## Project Structure
-
-```text
-resumeiq/
-│
-├── app.py
-├── pages/
-│   ├── ATS_Analysis.py
-│   ├── Skill_Gap.py
-│   ├── Resume_Rewriter.py
-│   └── Reports.py
-│
-├── helpers.py
-├── requirements.txt
-└── README.md
 ```
 
 ## Author
